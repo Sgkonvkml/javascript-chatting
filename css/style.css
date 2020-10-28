@@ -33,6 +33,16 @@ button,input{outline: none;}
   border: 1px solid rgba(255, 143, 0, 1);
 }
 
+.chatting .title{
+  position: absolute;
+  height: 50px;
+  line-height: 50px;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: rgba(255, 143, 0, 1);
+}
+
 .chatting .chat_box{
   height: 500px;
   box-sizing: border-box;
