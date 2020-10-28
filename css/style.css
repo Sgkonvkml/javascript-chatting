@@ -69,15 +69,15 @@ button,input{outline: none;}
 }
 
 .chatting .chat_box .line.char_a:before{
-  background-image: url('../image/img_01.jpg');
+  background-image: url('../img/img_01.jpg');
 }
 
 .chatting .chat_box .line.char_b:before{
-  background-image: url('../image/img_02.jpg');
+  background-image: url('../img/img_02.jpg');
 }
 
 .chatting .chat_box .line.char_c:before{
-  background-image: url('../image/img_03.jpg');
+  background-image: url('../img/img_03.jpg');
 }
 
 .chatting .chat_box .line.right{
@@ -88,6 +88,17 @@ button,input{outline: none;}
 .chatting .chat_box .line.right:before{
   left: auto;
   right: 0;
+}
+
+.chatting .chat_box .lin .txt{
+  background: #f1f1f1;
+  border-radius: 10px;
+  box-sizing: border-box;
+  padding: 0 5px;
+  display: inline-block;
+  color: #333;
+  font-size: 14px;
+  text-align: left;
 }
 
 .chatting .chat_box .line.right .txt{
