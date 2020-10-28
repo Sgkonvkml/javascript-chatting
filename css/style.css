@@ -114,3 +114,8 @@ button,input{outline: none;}
   justify-content: space-between;
   border-top: 1px solid rgba(255, 143, 0, 1);
 }
+
+.input_box input, .input_box button{
+  height: 30px;
+  line-height: 30px;
+}
