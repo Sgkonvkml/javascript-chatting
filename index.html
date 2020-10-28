@@ -24,7 +24,7 @@
         <!--input area-->
         <div class="input_box">
           <input type="text" class="user_a">
-          <button class="user_a" onclick="">send</button>
+          <button class="user_a" onclick="chattingFunc(this)">send</button>
         </div>
       </div>
       <div class="chatting">
@@ -48,6 +48,12 @@
 
     <script type="text/javascript">
       /*script area*/
+      function chattingFunc(e){
+        var elem = document.querySelectorAll('.chat_box');
+        var inputTxt = e.previousElementSibling.value;
+        var htmlTxt = '';
+        htmlTxt = elem[0].innerHTML;
+      }
     </script>
   </body>
 </html>
