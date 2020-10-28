@@ -59,7 +59,7 @@ button,input{outline: none;}
 /*chat line*/
 .chatting .chat_box .line{
   position: relative;
-  padding-left;
+  padding-left: 30px;
   line-height: 25px;
   max-width: calc(100% - 30px);
 }
