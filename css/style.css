@@ -79,3 +79,11 @@ button,input{outline: none;}
 .chatting .chat_box .line.char_c:before{
   background-image: url('../image/img_03.jpg');
 }
+
+.chatting .chat_box .line.right .txt{
+  background: rgb(255,100,0);
+  background: -webkit-linear-gradient(bottom, rgba(255,100,0,1) 0%, rgba(255,100,0,1) 100%, rgba(255,143,0,1) 100%);
+  background: -o-linear-gradient(bottom, rgba(255,100,0,1) 0%, rgba(255,100,0,1) 100%, rgba(255,143,0,1) 100%);
+  background: linear-gradient(to top, rgba(255,100,0,1) 0%, rgba(255,100,0,1) 100%, rgba(255,143,0,1) 100%);
+  color: #fff;
+}
