@@ -105,7 +105,7 @@ button,input{outline: none;}
   right: 0;
 }
 
-.chatting .chat_box .lin .txt{
+.chatting .chat_box .line .txt{
   background: #f1f1f1;
   border-radius: 10px;
   box-sizing: border-box;
