@@ -108,3 +108,9 @@ button,input{outline: none;}
   background: linear-gradient(to top, rgba(255,100,0,1) 0%, rgba(255,100,0,1) 100%, rgba(255,143,0,1) 100%);
   color: #fff;
 }
+
+.input_box{
+  display:flex;
+  justify-content: space-between;
+  border-top: 1px solid rgba(255, 143, 0, 1);
+}
