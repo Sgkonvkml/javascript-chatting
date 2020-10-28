@@ -41,6 +41,9 @@ button,input{outline: none;}
   left: 0;
   right: 0;
   background: rgba(255, 143, 0, 1);
+  z-index: 10;
+  padding: 0 5px;
+  color: #fff;
 }
 
 .chatting .chat_box{
