@@ -119,3 +119,9 @@ button,input{outline: none;}
   height: 30px;
   line-height: 30px;
 }
+
+.input_box input{
+  flex-grow: 1;
+  border: none;
+  padding: 0 5px;
+}
